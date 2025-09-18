@@ -1,7 +1,6 @@
 package main
 
 import (
-	"fmt"
 	"strconv"
 	"strings"
 )
@@ -83,10 +82,10 @@ func (this *Codec) deserialize(data string) *TreeNode {
 	return root
 }
 
-func main() {
-	ser := Constructor()
-	deser := Constructor()
-	data := ser.serialize(decodeTree([]any{1, 2, 3, nil, 4, nil, nil}))
-	ans := deser.deserialize(data)
-	fmt.Println(ans)
-}
+// func main() {
+// 	ser := Constructor()
+// 	deser := Constructor()
+// 	data := ser.serialize(decodeTree([]any{1, 2, 3, nil, 4, nil, nil}))
+// 	ans := deser.deserialize(data)
+// 	fmt.Println(ans)
+// }
