@@ -1,7 +1,5 @@
 package main
 
-import "fmt"
-
 type group [2]int
 
 func maxCoins(nums []int) int {
@@ -38,6 +36,6 @@ func maxCoins(nums []int) int {
 	return dfs(0, n-1)
 }
 
-func main() {
-	fmt.Println(maxCoins([]int{3, 1, 5, 8}))
-}
+// func main() {
+// 	fmt.Println(maxCoins([]int{3, 1, 5, 8}))
+// }

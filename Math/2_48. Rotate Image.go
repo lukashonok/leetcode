@@ -1,7 +1,5 @@
 package main
 
-import "fmt"
-
 func rotate(matrix [][]int) {
 	m, n := matrix, len(matrix)
 	left, right := 0, n-1
@@ -20,8 +18,8 @@ func rotate(matrix [][]int) {
 	}
 }
 
-func main() {
-	m := [][]int{{1, 2, 3}, {4, 5, 6}, {7, 8, 9}}
-	rotate(m)
-	fmt.Println(m)
-}
+// func main() {
+// 	m := [][]int{{1, 2, 3}, {4, 5, 6}, {7, 8, 9}}
+// 	rotate(m)
+// 	fmt.Println(m)
+// }

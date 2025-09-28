@@ -1,7 +1,6 @@
 package main
 
 import (
-	"fmt"
 	"math"
 	"slices"
 )
@@ -35,6 +34,6 @@ func findCheapestPrice(n int, flights [][]int, src int, dst int, k int) int {
 	return prices[dst]
 }
 
-func main() {
-	fmt.Println(findCheapestPrice(4, [][]int{{0, 1, 100}, {1, 2, 100}, {2, 0, 100}, {1, 3, 600}, {2, 3, 200}}, 0, 3, 1))
-}
+// func main() {
+// 	fmt.Println(findCheapestPrice(4, [][]int{{0, 1, 100}, {1, 2, 100}, {2, 0, 100}, {1, 3, 600}, {2, 3, 200}}, 0, 3, 1))
+// }
