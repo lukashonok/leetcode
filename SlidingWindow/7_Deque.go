@@ -126,9 +126,9 @@ func printDeque(queue MinMaxDeque) {
 	fmt.Println("------------")
 }
 
-func main() {
-	fmt.Println(maxSlidingWindow([]int{1, 3, -1, -3, 5, 3, 6, 7}, 3)) // [3,3,5,5,6,7]
-	fmt.Println(maxSlidingWindow([]int{1}, 1))                        // [1]
-	fmt.Println(maxSlidingWindow([]int{1, 2, 1, 0, 4, 2, 6}, 3))      // [2,2,4,4,6]
-	fmt.Println(maxSlidingWindow([]int{1, 3, 1, 2, 0, 5}, 3))         // [3,3,2,5]
-}
+// func main() {
+// 	fmt.Println(maxSlidingWindow([]int{1, 3, -1, -3, 5, 3, 6, 7}, 3)) // [3,3,5,5,6,7]
+// 	fmt.Println(maxSlidingWindow([]int{1}, 1))                        // [1]
+// 	fmt.Println(maxSlidingWindow([]int{1, 2, 1, 0, 4, 2, 6}, 3))      // [2,2,4,4,6]
+// 	fmt.Println(maxSlidingWindow([]int{1, 3, 1, 2, 0, 5}, 3))         // [3,3,2,5]
+// }

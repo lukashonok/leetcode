@@ -1,11 +1,18 @@
 package main
 
 import (
+	"fmt"
 	"strings"
 )
 
 func characterCheck(c byte) bool {
 	return (c >= 48 && c <= 57) || (c >= 97 && c <= 122)
+}
+
+func check(got, want any, desc string) {
+	if got != want {
+		panic(fmt.Sprintf("FAIL: %s → got %v, want %v", desc, got, want))
+	}
 }
 
 func isPalindrome(s string) bool {
