@@ -12,7 +12,7 @@ type MinStack struct {
 	Min  *MinStack
 }
 
-func Constructor() MinStack {
+func Constructor2() MinStack {
 	return MinStack{
 		Min: &MinStack{},
 	}

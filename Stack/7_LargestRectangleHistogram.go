@@ -1,10 +1,5 @@
 package main
 
-import (
-	"fmt"
-	"time"
-)
-
 type LRHStackElement struct {
 	Value int
 	Next  *LRHStackElement
@@ -83,10 +78,10 @@ func largestRectangleArea(heights []int) int {
 	return largestArea
 }
 
-func main() {
-	start := time.Now()
-	fmt.Println(largestRectangleArea([]int{1, 0, 5, 6, 2, 0}))
-	fmt.Println(largestRectangleArea([]int{0, 9})) // 9
-	fmt.Println(largestRectangleArea([]int{2, 4})) // 4
-	fmt.Println("Total ms: ", time.Since(start).Milliseconds())
-}
+// func main() {
+// 	start := time.Now()
+// 	fmt.Println(largestRectangleArea([]int{1, 0, 5, 6, 2, 0}))
+// 	fmt.Println(largestRectangleArea([]int{0, 9})) // 9
+// 	fmt.Println(largestRectangleArea([]int{2, 4})) // 4
+// 	fmt.Println("Total ms: ", time.Since(start).Milliseconds())
+// }
