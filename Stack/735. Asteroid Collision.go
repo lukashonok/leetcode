@@ -1,9 +1,5 @@
 package main
 
-import (
-	"fmt"
-)
-
 func asteroidCollision(asteroids []int) []int {
 	stack := []int{}
 	for _, a := range asteroids {
@@ -25,9 +21,9 @@ func asteroidCollision(asteroids []int) []int {
 	return stack
 }
 
-func main() {
-	fmt.Println(asteroidCollision([]int{5, 10, -5}))
-	fmt.Println(asteroidCollision([]int{8, -8}))
-	fmt.Println(asteroidCollision([]int{10, 2, -5}))
-	fmt.Println(asteroidCollision([]int{-5, -5, 5}))
-}
+// func main() {
+// 	fmt.Println(asteroidCollision([]int{5, 10, -5}))
+// 	fmt.Println(asteroidCollision([]int{8, -8}))
+// 	fmt.Println(asteroidCollision([]int{10, 2, -5}))
+// 	fmt.Println(asteroidCollision([]int{-5, -5, 5}))
+// }

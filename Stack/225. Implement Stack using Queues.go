@@ -4,7 +4,7 @@ type MyStack struct {
 	q []int
 }
 
-func Constructor() MyStack {
+func Constructor5() MyStack {
 	return MyStack{q: []int{}}
 }
 

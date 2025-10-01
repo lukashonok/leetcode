@@ -1,7 +1,5 @@
 package main
 
-import "fmt"
-
 type DequeElement struct {
 	Value int
 	Next  *DequeElement
@@ -94,11 +92,11 @@ func runCommands(commands []string, args [][]int) []any {
 	return results
 }
 
-func main() {
-	fmt.Println(
-		runCommands(
-			[]string{"LRUCache", "put", "put", "get", "put", "get", "put", "get", "get", "get"},
-			[][]int{{2}, {1, 1}, {2, 2}, {1}, {3, 3}, {2}, {4, 4}, {1}, {3}, {4}},
-		)...,
-	)
-}
+// func main() {
+// 	fmt.Println(
+// 		runCommands(
+// 			[]string{"LRUCache", "put", "put", "get", "put", "get", "put", "get", "get", "get"},
+// 			[][]int{{2}, {1, 1}, {2, 2}, {1}, {3, 3}, {2}, {4, 4}, {1}, {3}, {4}},
+// 		)...,
+// 	)
+// }

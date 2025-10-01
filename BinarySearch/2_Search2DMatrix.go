@@ -16,5 +16,5 @@ func searchMatrix(matrix [][]int, target int) bool {
 		}
 	}
 
-	return search(matrix[left-1], target) >= 0
+	return search4(matrix[left-1], target) >= 0
 }
