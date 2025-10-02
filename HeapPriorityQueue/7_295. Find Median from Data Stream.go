@@ -1,9 +1,5 @@
 package main
 
-import (
-	"fmt"
-)
-
 func Heapify(data []int, n int, i int, minHeap bool) []int {
 	largest := i
 	l, r := i*2+1, i*2+2
@@ -107,26 +103,26 @@ func runCommandsMedian(commands []string, args [][]int) []any {
 	return results
 }
 
-func main() {
+// func main() {
 
-	fmt.Println(
-		runCommandsMedian(
-			[]string{"MedianFinder", "addNum", "findMedian", "addNum", "findMedian", "addNum", "findMedian", "addNum", "findMedian", "addNum", "findMedian", "addNum", "findMedian", "addNum", "findMedian", "addNum", "findMedian", "addNum", "findMedian", "addNum", "findMedian"},
-			[][]int{{}, {1}, {}, {2}, {}, {3}, {}, {4}, {}, {5}, {}, {6}, {}, {7}, {}, {8}, {}, {9}, {}, {10}, {}},
-		),
-	)
+// 	fmt.Println(
+// 		runCommandsMedian(
+// 			[]string{"MedianFinder", "addNum", "findMedian", "addNum", "findMedian", "addNum", "findMedian", "addNum", "findMedian", "addNum", "findMedian", "addNum", "findMedian", "addNum", "findMedian", "addNum", "findMedian", "addNum", "findMedian", "addNum", "findMedian"},
+// 			[][]int{{}, {1}, {}, {2}, {}, {3}, {}, {4}, {}, {5}, {}, {6}, {}, {7}, {}, {8}, {}, {9}, {}, {10}, {}},
+// 		),
+// 	)
 
-	// fmt.Println(
-	// 	runCommandsMedian(
-	// 		[]string{"MedianFinder", "addNum", "addNum", "findMedian", "addNum", "findMedian"},
-	// 		[][]int{{}, {1}, {2}, {}, {3}, {}},
-	// 	),
-	// )
+// 	// fmt.Println(
+// 	// 	runCommandsMedian(
+// 	// 		[]string{"MedianFinder", "addNum", "addNum", "findMedian", "addNum", "findMedian"},
+// 	// 		[][]int{{}, {1}, {2}, {}, {3}, {}},
+// 	// 	),
+// 	// )
 
-	// fmt.Println(
-	// 	runCommandsMedian(
-	// 		[]string{"MedianFinder", "addNum", "findMedian", "addNum", "findMedian", "addNum", "findMedian", "addNum", "findMedian", "addNum", "findMedian"},
-	// 		[][]int{{}, {-1}, {}, {-2}, {}, {-3}, {}, {-4}, {}, {-5}, {}},
-	// 	),
-	// )
-}
+// 	// fmt.Println(
+// 	// 	runCommandsMedian(
+// 	// 		[]string{"MedianFinder", "addNum", "findMedian", "addNum", "findMedian", "addNum", "findMedian", "addNum", "findMedian", "addNum", "findMedian"},
+// 	// 		[][]int{{}, {-1}, {}, {-2}, {}, {-3}, {}, {-4}, {}, {-5}, {}},
+// 	// 	),
+// 	// )
+// }

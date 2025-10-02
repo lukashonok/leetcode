@@ -109,42 +109,42 @@ func printBoard(board [][]byte) {
 	}
 }
 
-func main() {
-	fmt.Println(
-		findWords(
-			[][]byte{{'o', 'a', 'a', 'n'}, {'e', 't', 'a', 'e'}, {'i', 'h', 'k', 'r'}, {'i', 'f', 'l', 'v'}},
-			[]string{"oath", "pea", "eat", "rain", "oathi", "oathk", "oathf", "oate", "oathii", "oathfi", "oathfii"},
-		),
-	)
+// func main() {
+// 	fmt.Println(
+// 		findWords(
+// 			[][]byte{{'o', 'a', 'a', 'n'}, {'e', 't', 'a', 'e'}, {'i', 'h', 'k', 'r'}, {'i', 'f', 'l', 'v'}},
+// 			[]string{"oath", "pea", "eat", "rain", "oathi", "oathk", "oathf", "oate", "oathii", "oathfi", "oathfii"},
+// 		),
+// 	)
 
-	// fmt.Println(
-	// 	findWords(
-	// 		[][]byte{{'a'}},
-	// 		[]string{"a"},
-	// 	),
-	// )
-	// fmt.Println(
-	// 	findWords(
-	// 		[][]byte{{'a'}},
-	// 		[]string{"b"},
-	// 	),
-	// )
-	// fmt.Println(
-	// 	findWords(
-	// 		[][]byte{{'a', 'b', 'c', 'e'}, {'x', 'x', 'c', 'd'}, {'x', 'x', 'b', 'a'}},
-	// 		[]string{"abc", "abcd"},
-	// 	),
-	// )
-	// fmt.Println(
-	// 	findWords(
-	// 		[][]byte{{'a', 'a'}},
-	// 		[]string{"aaa"},
-	// 	),
-	// )
-	// fmt.Println(
-	// 	findWords(
-	// 		[][]byte{{'o', 'a', 'a', 'n'}, {'e', 't', 'a', 'e'}, {'i', 'h', 'k', 'r'}, {'i', 'f', 'l', 'v'}},
-	// 		[]string{"oath", "pea", "eat", "rain"},
-	// 	),
-	// )
-}
+// 	// fmt.Println(
+// 	// 	findWords(
+// 	// 		[][]byte{{'a'}},
+// 	// 		[]string{"a"},
+// 	// 	),
+// 	// )
+// 	// fmt.Println(
+// 	// 	findWords(
+// 	// 		[][]byte{{'a'}},
+// 	// 		[]string{"b"},
+// 	// 	),
+// 	// )
+// 	// fmt.Println(
+// 	// 	findWords(
+// 	// 		[][]byte{{'a', 'b', 'c', 'e'}, {'x', 'x', 'c', 'd'}, {'x', 'x', 'b', 'a'}},
+// 	// 		[]string{"abc", "abcd"},
+// 	// 	),
+// 	// )
+// 	// fmt.Println(
+// 	// 	findWords(
+// 	// 		[][]byte{{'a', 'a'}},
+// 	// 		[]string{"aaa"},
+// 	// 	),
+// 	// )
+// 	// fmt.Println(
+// 	// 	findWords(
+// 	// 		[][]byte{{'o', 'a', 'a', 'n'}, {'e', 't', 'a', 'e'}, {'i', 'h', 'k', 'r'}, {'i', 'f', 'l', 'v'}},
+// 	// 		[]string{"oath", "pea", "eat", "rain"},
+// 	// 	),
+// 	// )
+// }
