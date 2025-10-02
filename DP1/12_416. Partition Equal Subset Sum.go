@@ -1,9 +1,5 @@
 package main
 
-import (
-	"fmt"
-)
-
 func canPartition(nums []int) bool {
 	total := 0
 	for _, n := range nums {
@@ -53,6 +49,6 @@ func change(amount int, coins []int) int {
 	return dfs(amount)
 }
 
-func main() {
-	fmt.Println(canPartition([]int{1, 5, 11, 5}))
-}
+// func main() {
+// 	fmt.Println(canPartition([]int{1, 5, 11, 5}))
+// }

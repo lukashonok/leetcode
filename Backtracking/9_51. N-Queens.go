@@ -1,7 +1,5 @@
 package main
 
-import "fmt"
-
 func solveNQueens(n int) [][]string {
 	result := [][]string{}
 	usedCols, usedPosDiags, usedNegDiags := map[int]bool{}, map[int]bool{}, map[int]bool{}
@@ -46,6 +44,6 @@ func solveNQueens(n int) [][]string {
 	return result
 }
 
-func main() {
-	fmt.Println(solveNQueens(14))
-}
+// func main() {
+// 	fmt.Println(solveNQueens(14))
+// }
